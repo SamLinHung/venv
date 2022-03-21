@@ -38,5 +38,6 @@ jobs:
 
       # - name: UnitTest
       #   run: python -m unittest app/test/test_sum.py
-      - name: Install Dependencies
-        run: Invoke-Expression ".\test.bat"
+      - name: Run bat script on CMD
+        shell: cmd
+        run: .\bat_scripts\test.bat
