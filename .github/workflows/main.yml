@@ -39,5 +39,5 @@ jobs:
       # - name: UnitTest
       #   run: python -m unittest app/test/test_sum.py
       - name: Run bat script on CMD
-        shell: cmd
-        run: .\bat_scripts\test.bat
+        - shell: cmd
+          run: echo "test"
