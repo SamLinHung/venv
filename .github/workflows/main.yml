@@ -38,6 +38,6 @@ jobs:
 
       # - name: UnitTest
       #   run: python -m unittest app/test/test_sum.py
-      - name: Run bat script on CMD
-        - shell: cmd
-          run: echo "test"
+      - name: Encrption Source Code
+        shell: cmd
+        run: cd
