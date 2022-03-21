@@ -36,5 +36,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
           architecture: x64
 
-      - name: UnitTest
-        run: python -m unittest app/test/test_sum.py
+      # - name: UnitTest
+      #   run: python -m unittest app/test/test_sum.py
+      - name: Install Dependencies
+        run: npm install
