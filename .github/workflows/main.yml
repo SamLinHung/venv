@@ -40,4 +40,4 @@ jobs:
       #   run: python -m unittest app/test/test_sum.py
       - name: Encrption Source Code
         shell: cmd
-        run: cd
+        run: echo "test"
