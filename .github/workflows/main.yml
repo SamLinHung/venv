@@ -39,4 +39,4 @@ jobs:
       # - name: UnitTest
       #   run: python -m unittest app/test/test_sum.py
       - name: Install Dependencies
-        run: /venv/Scripts/activate.bat
+        run: Invoke-Expression ".\test.bat"
